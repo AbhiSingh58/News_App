@@ -3,7 +3,7 @@ console.log("hello Everyone")
 
 // e8a9af54d7234a9eb52ae8a33681770a
 const xhr = new XMLHttpRequest();
-xhr.open('GET', 'https://newsapi.org/v2/top-headlines?country=in&category=entertainment&apiKey=e8a9af54d7234a9eb52ae8a33681770a', true);
+xhr.open('GET', 'https://gnews.io/api/v4/top-headlines?&country=in&token=a1d13eb31b7504d895e717156227568e', true);
 xhr.onload = function () {
     let na = document.getElementById('newsAccordion')
     if (this.status === 200) {
