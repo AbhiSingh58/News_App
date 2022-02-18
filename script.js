@@ -1,4 +1,4 @@
-console.log("hello babies")
+console.log("hello Everyone")
 // 'https://newsapi.org/v2/top-headlines?country=in&category=entertainment&apiKey=e8a9af54d7234a9eb52ae8a33681770a'
 
 
