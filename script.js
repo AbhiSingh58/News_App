@@ -32,7 +32,7 @@ xhr.onload = function () {
         </div>
           <br>`
           ;
-
+ 
 
         })
         na.innerHTML = str;
